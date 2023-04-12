@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		321411CE29E67C720039F2CF /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 321411C629E67C720039F2CF /* FMDatabaseAdditions.m */; };
 		321411CF29E67C720039F2CF /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 321411C729E67C720039F2CF /* FMDatabase.m */; };
 		321411D029E67C720039F2CF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 321411C829E67C720039F2CF /* FMDatabaseQueue.m */; };
+		321411D229E67D830039F2CF /* FMDBfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321411D129E67D830039F2CF /* FMDBfile.swift */; };
+		321411D429E68A8A0039F2CF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321411D329E68A8A0039F2CF /* ViewController2.swift */; };
+		321411D629E68B380039F2CF /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321411D529E68B380039F2CF /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		321411C929E67C720039F2CF /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		321411CA29E67C720039F2CF /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
 		321411CB29E67C720039F2CF /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		321411D129E67D830039F2CF /* FMDBfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBfile.swift; sourceTree = "<group>"; };
+		321411D329E68A8A0039F2CF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		321411D529E68B380039F2CF /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,10 +92,13 @@
 				321411C529E67C720039F2CF /* FMDB.h */,
 				321411CB29E67C720039F2CF /* FMResultSet.h */,
 				321411C129E67C720039F2CF /* FMResultSet.m */,
+				321411D129E67D830039F2CF /* FMDBfile.swift */,
 				321411A929E67B340039F2CF /* AppDelegate.swift */,
 				321411AB29E67B340039F2CF /* SceneDelegate.swift */,
 				321411AD29E67B340039F2CF /* ViewController.swift */,
 				321411AF29E67B340039F2CF /* Main.storyboard */,
+				321411D529E68B380039F2CF /* MyTableViewCell.swift */,
+				321411D329E68A8A0039F2CF /* ViewController2.swift */,
 				321411B529E67B350039F2CF /* Assets.xcassets */,
 				321411B729E67B350039F2CF /* LaunchScreen.storyboard */,
 				321411BA29E67B350039F2CF /* Info.plist */,
@@ -136,7 +145,7 @@
 				};
 			};
 			buildConfigurationList = 321411A129E67B340039F2CF /* Build configuration list for PBXProject "ExamLocalDataBase" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -173,7 +182,10 @@
 			files = (
 				321411AE29E67B340039F2CF /* ViewController.swift in Sources */,
 				321411CD29E67C720039F2CF /* FMDatabasePool.m in Sources */,
+				321411D229E67D830039F2CF /* FMDBfile.swift in Sources */,
 				321411B429E67B340039F2CF /* ExamLocalDataBase.xcdatamodeld in Sources */,
+				321411D429E68A8A0039F2CF /* ViewController2.swift in Sources */,
+				321411D629E68B380039F2CF /* MyTableViewCell.swift in Sources */,
 				321411AA29E67B340039F2CF /* AppDelegate.swift in Sources */,
 				321411AC29E67B340039F2CF /* SceneDelegate.swift in Sources */,
 				321411CE29E67C720039F2CF /* FMDatabaseAdditions.m in Sources */,
