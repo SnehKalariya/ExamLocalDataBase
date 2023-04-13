@@ -113,6 +113,10 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="id" destination="FeY-IH-j8R" id="umi-dP-2AR"/>
+                                            <outlet property="name" destination="BB4-s7-NCM" id="V8A-2a-aGs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
